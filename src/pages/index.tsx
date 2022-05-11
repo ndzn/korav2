@@ -26,6 +26,9 @@ const Home: React.FC<{quote: string}> = ({quote}) => {
                  +@@@@@@@@@@@@@+      --.    ---.  :===-    :-:    .-==-.--
                    -*%@@@@@%*-`)}
         </h1>
+        yo@kora.gg
+
+        
         <h1>
           "{quote}"
         </h1>
