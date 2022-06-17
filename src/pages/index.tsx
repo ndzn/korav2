@@ -2,7 +2,7 @@ import dedent from 'dedent';
 import type { InferGetServerSidePropsType, GetServerSideProps } from 'next';
 
 export const getServerSideProps = () => {
-  const quotes = ["Badass quote", "o.O", ":P", "oWo", "O.O", ":eyes:", "your dreams are no match for my memes"]
+  const quotes = ["Badass quote", "o.O", ":P", "oWo", "O.O", ":eyes:", "your dreams are no match for my memes", "one step at a time"]
   return {
     props: {
       quote: quotes[Math.floor(Math.random() * quotes.length)],
@@ -26,9 +26,7 @@ const Home: React.FC<{quote: string}> = ({quote}) => {
                  +@@@@@@@@@@@@@+      --.    ---.  :===-    :-:    .-==-.--
                    -*%@@@@@%*-`)}
         </h1>
-        yo@kora.gg
-
-        
+        hi@kora.gg
         <h1>
           "{quote}"
         </h1>
